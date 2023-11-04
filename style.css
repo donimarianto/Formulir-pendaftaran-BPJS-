@@ -1,0 +1,583 @@
+body {
+  margin: 90px;
+  background-color: beige;
+}
+
+.header {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  margin-top: 10px;
+  width: 30%;
+}
+
+.formulir {
+  margin-top: 30px;
+  border: 3px solid black;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.child {
+  font-size: 2rem;
+  position: inherit;
+  display: flex;
+  justify-content: end;
+  font-weight: bold;
+  margin: 0;
+}
+
+input {
+  margin-right: 10px;
+}
+
+span {
+  margin: 50%;
+  justify-content: center;
+}
+
+.kop {
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.kop1 {
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.bagan1 {
+  font-size: 2rem;
+  background-color: green;
+  color: aliceblue;
+}
+
+.question {
+  margin-top: 10px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.radio-ques {
+  margin-top: 30px;
+  margin-left: 5%;
+  font-size: 2rem;
+  position: inherit;
+  display: block;
+  justify-content: end;
+  font-weight: bold;
+}
+
+.kpj {
+  margin-top: 0;
+  margin-right: 5%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: first baseline;
+}
+.kuj {
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
+.kpi {
+  font-size: 2rem;
+  margin-right: 5%;
+}
+
+.kotak {
+  margin-top: 35px;
+  height: 40px;
+  width: 40px;
+  border: 1px solid;
+}
+
+.kpj_1 {
+  font-size: 1rem;
+  margin-right: 6%;
+  display: flex;
+}
+
+.kpi1 {
+  margin-left: 9%;
+  display: flex;
+  justify-content: center;
+}
+
+.npp {
+  background-color: gray;
+  margin-left: 8.5%;
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  font-style: italic;
+  position: absolute;
+  display: flex;
+  font-size: 0.9rem;
+  margin: 0;
+  left: 75%;
+}
+
+.perusahaan {
+  font-style: italic;
+  position: absolute;
+  display: flex;
+  font-size: 0.9rem;
+  margin: 0;
+  left: 4%;
+}
+
+.kpp {
+  display: flex;
+  margin-right: 63%;
+}
+
+.nama-perusahaan {
+  font-size: 2rem;
+  display: flex;
+  justify-content: first baseline;
+}
+
+.nape {
+  display: flex;
+  margin-right: 2%;
+}
+
+.bio-data {
+  margin-top: 0;
+  margin-right: 5%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: first baseline;
+}
+
+.ident {
+  position: absolute;
+  margin: 0;
+  left: 19.5%;
+  font-size: 2rem;
+  font-style: normal;
+}
+.ident1 {
+  position: absolute;
+  font-size: 2rem;
+  left: 35%;
+  margin-left: 10%;
+  display: flex;
+  font-style: normal;
+}
+.bio-data-kotak {
+  display: flex;
+  justify-content: center;
+}
+
+.nama {
+  display: flex;
+  justify-content: center;
+  margin-left: 18%;
+  margin-right: 10%;
+}
+
+.namax {
+  display: flex;
+  margin-left: 7.5%;
+  margin-right: 10%;
+}
+.nama1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 5%;
+  left: 50%;
+}
+.tgl {
+  position: absolute;
+  font-size: 2rem;
+  left: 35%;
+  margin-left: 10%;
+  top: 107%;
+  display: flex;
+}
+.bulan {
+  position: absolute;
+  font-size: 2rem;
+  left: 42.5%;
+  margin-left: 10%;
+  top: 107%;
+  display: flex;
+}
+.tahun {
+  position: absolute;
+  font-size: 2rem;
+  left: 50.5%;
+  margin-left: 10%;
+  top: 107%;
+  display: flex;
+}
+.nama2 {
+  display: flex;
+  justify-content: center;
+  margin-right: 5%;
+  left: 60%;
+}
+.nama3 {
+  display: flex;
+  justify-content: center;
+  margin-right: 5%;
+  left: 60%;
+}
+.pendidikan {
+  position: relative;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.pente {
+  position: absolute;
+  top: 97%;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.jenjang {
+  display: flex;
+  position: absolute;
+  font-size: 2rem;
+  top: 90%;
+  left: 75%;
+}
+
+.sd {
+  display: flex;
+}
+
+.jk {
+  display: flex;
+  align-items: first baseline;
+  font-size: 2rem;
+}
+
+.kelamin {
+  margin-left: 9%;
+  margin-right: 4%;
+}
+
+.status {
+  margin-left: 1%;
+}
+
+.gol {
+  display: flex;
+  justify-content: first baseline;
+  font-size: 2rem;
+}
+
+.gd {
+  margin-top: 1.4%;
+  margin-left: 9%;
+  margin-right: 4%;
+}
+.gl {
+  margin-left: 8%;
+}
+
+.kwn {
+  display: flex;
+  margin-left: 2%;
+  margin-right: 1%;
+}
+
+.khusus {
+  top: 123%;
+  left: 46%;
+}
+.ni {
+  font-size: 2rem;
+  display: flex;
+  justify-content: first baseline;
+}
+
+.nidi {
+  display: flex;
+  margin-left: 5%;
+}
+.berlaku {
+  margin-left: 19%;
+  margin-right: 1%;
+}
+
+.tg {
+  position: absolute;
+  left: 59%;
+  top: 139%;
+}
+
+.bl {
+  position: absolute;
+  left: 66%;
+  top: 139%;
+}
+.th {
+  position: absolute;
+  left: 74%;
+  top: 139%;
+}
+
+.np {
+  font-size: 2rem;
+  display: flex;
+  justify-content: first baseline;
+}
+
+.npw {
+  margin-right: 7%;
+}
+.ibu {
+  margin-right: 1%;
+}
+.alt {
+  margin-right: 2%;
+}
+.np {
+  display: flex;
+  justify-content: first baseline;
+}
+.null {
+  position: absolute;
+  display: flex;
+  margin-left: 15.5%;
+}
+.nul {
+  position: absolute;
+  display: flex;
+  margin-left: 70%;
+}
+
+.code {
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-top: 7%;
+  left: 1%;
+}
+
+.pos {
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-top: 35%;
+  left: 2%;
+}
+
+.alamat {
+  margin-top: 5%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: first baseline;
+}
+.alt-surat {
+  position: relative;
+  top: 110%;
+  margin-right: 10%;
+}
+
+.kotak-surat {
+  position: absolute;
+  display: flex;
+  margin-left: 15.5%;
+}
+.kotak-surt {
+  position: absolute;
+  display: flex;
+  margin-top: 2%;
+  margin-left: 15.5%;
+}
+
+.nul1 {
+  display: flex;
+  margin-left: 16.5%;
+  margin-top: 5%;
+}
+
+.nu1 {
+  display: flex;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.codee {
+  font-size: 1.5rem;
+  font-style: normal;
+  position: absolute;
+  margin-top: 3%;
+  left: 19%;
+}
+
+.post {
+  font-size: 1.5rem;
+  font-style: normal;
+  position: absolute;
+  margin-top: 3%;
+  left: 73%;
+}
+
+.tlp-rumah {
+  font-size: 2rem;
+  display: flex;
+  justify-content: first baseline;
+}
+
+.tlp {
+  display: flex;
+  margin-left: 8%;
+}
+.tlpp {
+  display: flex;
+  margin-left: 2%;
+}
+.tlppp {
+  display: flex;
+  margin-left: 2%;
+}
+.ext {
+  margin-right: 5%;
+}
+.email {
+  display: flex;
+  font-size: 2rem;
+}
+.eml {
+  margin-right: 8%;
+}
+.surat {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  position: absolute;
+}
+.srt {
+  margin-left: 7%;
+  margin-right: 20%;
+}
+.bank {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.bank-1 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+  margin-right: 2%;
+}
+.banking {
+  display: flex;
+  position: absolute;
+  left: 15%;
+}
+
+.cabang {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+}
+.cab {
+  display: flex;
+  display: flex;
+  position: absolute;
+  left: 15%;
+}
+
+.kode-bank {
+  background-position: 20px;
+  position: absolute;
+  top: 265%;
+  left: 70%;
+  font-size: 2rem;
+}
+.bank-code {
+  display: flex;
+  position: absolute;
+}
+
+.email1 {
+  font-size: 2rem;
+  display: flex;
+}
+.eml1 {
+  margin-right: 4%;
+}
+
+.hidden {
+  border: 0;
+}
+
+.center {
+  text-align: center;
+  height: 20%;
+}
+
+.kotak-table {
+  position: absolute;
+  display: flex;
+  margin-top: 5%;
+  left: 65%;
+}
+
+.a {
+  margin-left: 2%;
+}
+.b {
+  margin-left: 4%;
+}
+.c {
+  margin-left: 8%;
+}
+.d {
+  margin-left: 10%;
+}
+
+.e {
+  margin-left: 14%;
+}
+.f {
+  margin-left: 16%;
+}
+.g {
+  margin-left: 18%;
+}
+.h {
+  margin-left: 20%;
+}
+.ab {
+  position: absolute;
+  font-size: 2rem;
+  font-style: normal;
+  top: 327%;
+  left: 67%;
+}
+
+.cd {
+  position: absolute;
+  font-size: 2rem;
+  font-style: normal;
+  top: 327%;
+  left: 73%;
+}
+
+.efgh {
+  position: absolute;
+  font-size: 2rem;
+  font-style: normal;
+  top: 327%;
+  left: 79%;
+}
